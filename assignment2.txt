@@ -1,0 +1,80 @@
+Step 1. Assignment Description
+Create a file named assignments/assignment2.py with the following instructions (you may distribute this as a PDF or include it in the repository):
+Case Study: Employee Salary Analysis
+In this assignment, you are given data about employees in a CSV file named employees.csv (assume this file is provided with the following columns:
+
+Name (string)
+Department (string)
+Salary (numeric)
+JoiningDate (string in ISO format, e.g., YYYY-MM-DD)
+
+Your task: Implement the following four functions using pandas:
+
+read_data(file_path)
+
+Input: The file path to a CSV file.
+Output: A pandas DataFrame containing the data.
+
+
+get_average_salary(df)
+
+Input: A pandas DataFrame as returned by read_data().
+Output: A float representing the average salary of all employees.
+
+
+get_department_counts(df)
+
+Input: A pandas DataFrame.
+Output: A dictionary where each key is a department name and each value is the number of employees in that department.
+
+
+get_top_earners(df, n)
+
+Input: A pandas DataFrame and an integer n.
+Output: A pandas DataFrame with the top n earners sorted by salary in descending order.
+
+
+
+Marks Distribution: Each test case that successfully verifies one function will award 2.5 marks (total of 10 marks).
+Reporting: Your evaluation report must clearly indicate:
+
+Which test cases passed.
+Which test cases failed (and why, e.g., incorrect output, missing column, etc.).
+The marks scored (2.5 per successful test case).
+
+Step 2. Assignment Code Stub
+Create the file assignments/assignment_pandas.py with the following stub code:
+pythonCopyimport pandas as pd
+
+def read_data(file_path):
+    """
+    Reads the CSV file from the given file path and returns a DataFrame.
+    """
+    # TODO: implement this function using pd.read_csv
+    # Example: return pd.read_csv(file_path)
+    pass
+
+def get_average_salary(df):
+    """
+    Returns the average salary of the employees.
+    """
+    # TODO: implement this function
+    # Example: return df['Salary'].mean()
+    pass
+
+def get_department_counts(df):
+    """
+    Returns a dictionary with the count of employees per department.
+    """
+    # TODO: implement this function
+    # Example: return df['Department'].value_counts().to_dict()
+    pass
+
+def get_top_earners(df, n):
+    """
+    Returns a DataFrame of the top n earners, sorted by salary in descending order.
+    """
+    # TODO: implement this function
+    # Example: return df.sort_values(by='Salary', ascending=False).head(n)
+    pass
+Note: The functions are left as stubs (using pass) so that students can implement them.
