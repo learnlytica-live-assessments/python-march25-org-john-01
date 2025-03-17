@@ -1,0 +1,9 @@
+numpy
+pandas
+pytest
+pytest-cov
+pytest-json
+requests
+GitPython
+flake8
+pytest-json-report

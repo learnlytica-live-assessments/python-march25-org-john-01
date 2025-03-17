@@ -1,1 +1,13 @@
 
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py,cover
+*.py[cod]
+*$py.class
+
+
+# pytest cache
+.pytest_cache/
