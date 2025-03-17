@@ -1,9 +1,9 @@
 import pandas as pd
 
 def read_data(file_path):
-    """""
+    """
     Reads the CSV file from the given file path and returns a DataFrame.
-    """""
+    """
     # Using pandas to read the CSV file
     df = pd.read_csv(file_path)
     return df
