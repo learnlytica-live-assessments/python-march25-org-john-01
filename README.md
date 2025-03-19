@@ -1,6 +1,6 @@
 # CS101 Assignment Repository
 
-This repository contains your assignments for CS101. Follow the instructions below to get started..
+This repository contains your assignments for CS101. Follow the instructions below to get started.
 
 ## Setup Instructions
 
